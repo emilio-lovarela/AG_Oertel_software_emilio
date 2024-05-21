@@ -1,0 +1,35 @@
+{
+    "de": {
+        "folder_selected_text": "Ausgewählter Ordner:",
+        "select_button_text": "Ordner Auswählen",
+        "run_button_text": "Ausführen",
+        "processing_text": "Verarbeiten",
+        "error_title": "Fehler",
+        "error_message": "Bitte wählen Sie einen Ordner aus.",
+        "success_message": "Prozess erfolgreich durchgeführt!",
+        "no_images_message": "Fehler während des Prozesses!",
+        "recursive_search": "Rekursive Suche"
+    },
+    "es": {
+        "folder_selected_text": "Carpeta seleccionada:",
+        "select_button_text": "Seleccionar Carpeta",
+        "run_button_text": "Ejecutar",
+        "processing_text": "Procesando",
+        "error_title": "Error",
+        "error_message": "Por favor selecciona una carpeta.",
+        "success_message": "Proceso ejecutado de manera correcta!",
+        "no_images_message": "Error durante el proceso!",
+        "recursive_search": "Búsqueda Recursiva"
+    },
+    "default": {
+        "folder_selected_text": "Selected Folder:",
+        "select_button_text": "Select Folder",
+        "run_button_text": "Run",
+        "processing_text": "Processing",
+        "error_title": "Error",
+        "error_message": "Please select a folder.",
+        "success_message": "Process executed correctly!",
+        "no_images_message": "Error during process!",
+        "recursive_search": "Recursive Search"
+    }
+}
