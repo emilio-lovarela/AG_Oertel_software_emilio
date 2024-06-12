@@ -1,7 +1,7 @@
 # AG_Oertel_software_emilio
 
 ## Description and Usage
-This GitHub repository contains a collection of Python tools designed to streamline various processing steps for OCT, OCTA image analysis. Each tool is encapsulated within its own folder and serves a specific purpose in the image analysis pipeline, offering functionalities tailored to different stages of the process. Additionally, there's a folder named "Common_utils" which contains scripts and general files utilized by the other tools.
+This GitHub repository contains a collection of Python tools designed for the Oertel lab to streamline various processing steps for OCT, OCTA image analysis. Each tool is encapsulated within its own folder and serves a specific purpose in the image analysis pipeline, offering functionalities tailored to different stages of the process. Additionally, there's a folder named "Common_utils" which contains scripts and general files utilized by the other tools.
 
 ### Description of the Different Tools
 Below is a brief overview of each tool:
