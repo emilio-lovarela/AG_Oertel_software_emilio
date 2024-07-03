@@ -3,7 +3,7 @@
 ## Description
 This GitHub repository contains a collection of **Python tools** designed for the Oertel lab to streamline various processing steps for OCT, OCTA and pupillometry analysis. **Each tool is encapsulated within its own folder** and serves a specific purpose in the image analysis pipeline, offering functionalities tailored to different stages of the process. Additionally, there's a folder named **"Common_utils"** which contains scripts and general files utilized by the other tools.
 
-A brief **overview of each tool** can be found **within each folder in the README.md file**
+A **brief overview of each tool** can be found in the **README.md file located in each tool's folder**. `Pupillometry_CSV_Format_Adapter` tool description, for example, can be localized here -> [Pupillometry_CSV_Format_Adapter_README.md](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Pupillometry_CSV_Format_Adapter)
 
 
 ## Installation Prerequisites   
@@ -24,6 +24,28 @@ To utilize each tool within this repository, follow these steps:
 
 1. **Navigate to the folder** corresponding to the **tool you want to use**. If you're not familiar with how to use the command prompt or Terminal, you can refer to the tutorial linked here: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
 2. Execute the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
+
+
+<table border="0">
+ <tr>
+    <td><b style="font-size:30px">Steps</b></td>
+    <td><b style="font-size:30px">Example</b></td>
+ </tr>
+ <tr>
+    <td>
+       
+1. **Navigate to the folder** corresponding to the **tool you want to use**. If you're not familiar with how to use the command prompt or Terminal, you can refer to the tutorial linked here: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
+       
+2. **Execute** the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
+
+   </td>
+   <td>
+      <p align="center"> <img src="https://github.com/emilio-lovarela/AG_Oertel_software_emilio/blob/main/Common_utils/Tutorial_Images/tutorial_cmd.png?raw=true" alt="screenshot" width="2600"></p>
+   </td>
+</tr>
+</table>
+
+
 
 
 ### Main buttons and functionalities of the interface
