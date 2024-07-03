@@ -16,7 +16,7 @@ You can download this repository as a ZIP file by clicking on the green "<> Code
 If you haven't already installed Python 3, you can download and install it from [here](https://www.python.org/downloads/).
 
 3. **Install Python 3 Package Dependencies**
-Navigate to the directory containing this repository's files (where `requirements.txt` is located) using the command prompt or Terminal. Then, install the required dependencies by running the following command: `pip install -r requirements.txt`
+Navigate to the directory containing this repository (where `requirements.txt` is located) using the command prompt or Terminal. Then, install the required dependencies by running the following command: `pip install -r requirements.txt`
 
 
 ## How to use It
