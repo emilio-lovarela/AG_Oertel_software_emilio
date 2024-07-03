@@ -21,17 +21,17 @@ To interact with the console (terminal/command prompt):
 
 Once the terminal is open, navigate between folders using basic commands:
 
-- **Use the `ls` or `dir` command to list files and folders in the current directory:**
-```bash
-  ls         # macOS and Linux
-  dir        # Windows
-```
-
 - **Use the `cd` command to navigate between folders:**
 ```bash
   cd folder_name                  # Enter a folder named 'folder_name'
   cd folder_name/animals/cats     # Enter a folder named 'cats'
   cd ..                           # Move up one level
+```
+
+- **Use the `ls` or `dir` command to list files and folders in the current directory:**
+```bash
+  ls         # macOS and Linux
+  dir        # Windows
 ```
 
 You can get more information on [Command Prompt or Terminal Window](https://tutorial.djangogirls.org/en/intro_to_command_line/#what-is-the-command-line).
