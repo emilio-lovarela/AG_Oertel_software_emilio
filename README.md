@@ -22,8 +22,8 @@ Navigate to the directory containing this repository's files (where `requirement
 ## How to use It
 To utilize each tool within this repository, follow these steps:
 
-1. Navigate to the folder corresponding to the tool you want to use. If you're not familiar with how to use the command prompt or Terminal, you can refer to the tutorial linked below.
-2. Execute the `main.py` file within that folder.
+1. **Navigate to the folder** corresponding to the **tool you want to use**. If you're not familiar with how to use the command prompt or Terminal, you can refer to the tutorial linked here: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
+2. Execute the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
 
 
 ### Main buttons and functionalities of the interface
@@ -51,10 +51,3 @@ Although the basic interface might vary across different tools depending on thei
 </table>
 
 These buttons and checkboxes provide users with the necessary controls to interact with the tool and perform the desired tasks.
-
-
-## CMD Tutorials
-If you're not familiar with using the command prompt or Terminal window, here are two tutorials to help you get started:
-
-1. [Command Prompt or Terminal Window](https://tutorial.djangogirls.org/en/intro_to_command_line/#what-is-the-command-line)
-2. [Navigate to a Directory](https://tutorial.djangogirls.org/en/intro_to_command_line/#change-current-directory)
