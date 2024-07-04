@@ -8,6 +8,7 @@ To interact with the console (terminal/command prompt):
 - **Windows:**
   - Use `Win + R` to open the Run dialog.
   - Type `cmd` and press Enter.
+  - **Note:** To open a terminal directly in the desired folder, just go to the folder location and type `cmd` on the address bar
 
 - **macOS:**
   - Open Finder.
@@ -16,6 +17,8 @@ To interact with the console (terminal/command prompt):
 
 - **Linux (Ubuntu):**
   - Use `Ctrl + Alt + T` to open the terminal.
+  - - **Note:** To open a terminal directly in the desired folder, right-click on an empty space in the file manager and then select Open In Terminal
+
 
 #### 2. Navigating Between Folders
 
