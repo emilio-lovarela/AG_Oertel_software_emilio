@@ -34,4 +34,4 @@ Once the terminal is open, navigate between folders using basic commands:
   dir        # Windows
 ```
 
-You can get more information on [Command Prompt or Terminal Window](https://tutorial.djangogirls.org/en/intro_to_command_line/#what-is-the-command-line).
+You can get more information on [How to use the Command Prompt?](https://tutorial.djangogirls.org/en/intro_to_command_line/#what-is-the-command-line).
