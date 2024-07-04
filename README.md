@@ -35,7 +35,7 @@ To utilize each tool within this repository, follow these steps:
 1. **Open the terminal** or CMD. If you're not familiar with how to use the command prompt or Terminal, you can check this brief tutorial: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
 
 2. **Navigate to the folder** corresponding to the **tool you want to use**. To navigate to a specific path type `cd` **followed by the path** you want to go to: <br />
-`cd Documents/AG_Oertel_software_emilio/Pupillometry_CSV_Format_Adapter`
+`cd AG_Oertel_software_emilio/Pupillometry_CSV_Format_Adapter`
       
 3. **Execute** the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
 
