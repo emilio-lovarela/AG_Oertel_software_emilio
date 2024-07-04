@@ -1,4 +1,4 @@
-# CMD Tutorial: Using Console and Navigating Folders
+# Command Prompt or Terminal Window
 If you're not familiar with using the command prompt or Terminal window, here is a basic tutorial to help you get started
 
 #### 1. Opening the Console (Terminal)
