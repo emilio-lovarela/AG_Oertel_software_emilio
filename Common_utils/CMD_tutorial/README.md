@@ -1,5 +1,5 @@
 # Command Prompt or Terminal Window
-If you're not familiar with using the command prompt or Terminal window, here is a basic tutorial to help you get started
+If you're not familiar with using the command prompt or Terminal window, here there is a basic tutorial to help you get started
 
 #### 1. Opening the Console (Terminal)
 
@@ -17,7 +17,7 @@ To interact with the console (terminal/command prompt):
 
 - **Linux (Ubuntu):**
   - Use `Ctrl + Alt + T` to open the terminal.
-  - - **Note:** To open a terminal directly in the desired folder, right-click on an empty space in the file manager and then select Open In Terminal
+  - **Note:** To open a terminal directly in the desired folder, right-click on an empty space in the file manager and select Open Terminal
 
 
 #### 2. Navigating Between Folders
