@@ -9,46 +9,48 @@ A **brief overview of each tool** can be found in the **README.md file located i
 ## Installation Prerequisites   
 Before you proceed with using the tools in this repository, ensure that you have completed the following steps on your computer:
 
-1. **Donwload this Repository**
+1. **Donwload this Repository:**
 You can download this repository as a ZIP file by clicking on the green "<> Code" button at the top right of the repository page. Once downloaded, extract the folders from the ZIP file to your desired location.
 
-2. **Install Python 3+**
+2. **Install Python 3+:**
 If you haven't already installed Python 3, you can download and install it from [here](https://www.python.org/downloads/).
 
-3. **Install Python 3 Package Dependencies**
-Navigate to the directory containing this repository (where `requirements.txt` is located) using the command prompt or Terminal. Then, install the required dependencies by running the following command: `pip install -r requirements.txt`
+3. **Install Python 3 Package Dependencies:**
+   1. Navigate to the **folder containing this repository**, which has the `requirements.txt` file, using the command prompt or Terminal. If you're not familiar with how to use the command prompt, you can check this brief tutorial: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial).<br />
+   **Note:** You can open a terminal directly in the desired folder in the following ways:
+      - **Windows:** Go to your desired folder location and type `cmd` on the address bar
+      - **Linux (Ubuntu):** Once in the folder location, right-click on an empty space in the file manager and then select `Open Terminal`
+   2. Then, install the required dependencies by running the following command: `pip install -r requirements.txt`
 
 
 ## How to use It
 To utilize each tool within this repository, follow these steps:
 
-1. **Navigate to the folder** corresponding to the **tool you want to use**. If you're not familiar with how to use the command prompt or Terminal, you can refer to the tutorial linked here: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
-2. Execute the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
-
-
 <table border="0">
  <tr>
     <td><b style="font-size:30px">Steps</b></td>
-    <td><b style="font-size:30px">Example</b></td>
+    <td><b style="font-size:30px">Example -> Pupillometry_CSV_Format_Adapter</b></td>
  </tr>
  <tr>
     <td>
        
-1. **Navigate to the folder** corresponding to the **tool you want to use**. If you're not familiar with how to use the command prompt or Terminal, you can refer to the tutorial linked here: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
-       
-2. **Execute** the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
+1. **Open the terminal** or CMD. If you're not familiar with how to use the command prompt or Terminal, you can check this brief tutorial: [Command Prompt or Terminal Window](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Common_utils/CMD_tutorial)
+
+2. **Navigate to the folder** corresponding to the **tool you want to use**. To navigate to a specific path type `cd` **followed by the path** you want to go to: <br />
+`cd Documents/AG_Oertel_software_emilio/Pupillometry_CSV_Format_Adapter`
+      
+3. **Execute** the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
 
    </td>
-   <td>
-      <p align="center"> <img src="https://github.com/emilio-lovarela/AG_Oertel_software_emilio/blob/main/Common_utils/Tutorial_Images/tutorial_cmd.png?raw=true" alt="screenshot" width="2600"></p>
+   <td>   
+      <p align="center"> <img src="https://github.com/emilio-lovarela/AG_Oertel_software_emilio/blob/main/Common_utils/Tutorial_Images/cmd.png?raw=true" alt="screenshot" width="2600"></p>
    </td>
 </tr>
 </table>
 
 
 
-
-### Main buttons and functionalities of the interface
+#### Main buttons and functionalities of the interface
 Although the basic interface might vary across different tools depending on their utility, the general principles and functions remain the same. Below is the skeleton of the base interface for all tools, along with a brief explanation of the main buttons and their functionalities:
 
 <table border="0">
@@ -71,5 +73,3 @@ Although the basic interface might vary across different tools depending on thei
    </td>
 </tr>
 </table>
-
-These buttons and checkboxes provide users with the necessary controls to interact with the tool and perform the desired tasks.
