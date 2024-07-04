@@ -18,7 +18,7 @@ If you haven't already installed Python 3, you can download and install it from 
    **Note:** You can open a terminal directly in the desired folder in the following ways:
       - **Windows:** Go to your desired folder location and type `cmd` on the address bar
       - **Linux (Ubuntu):** Once in the folder location, right-click on an empty space in the file manager and then select `Open Terminal`
-   2. Then, install the required dependencies by running the following command: `pip install -r requirements.txt`
+   2. Then, install the required dependencies by running the following command:<br />`pip install -r requirements.txt`
 
 
 ## How to use It
