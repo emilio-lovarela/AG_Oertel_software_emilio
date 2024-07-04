@@ -1,7 +1,7 @@
 ## Description
 This GitHub repository contains a collection of **Python tools** designed for the Oertel lab to streamline various processing steps for OCT, OCTA and pupillometry analysis. **Each tool is encapsulated within its own folder** and serves a specific purpose in the image analysis pipeline, offering functionalities tailored to different stages of the process. Additionally, there's a folder named **"Common_utils"** which contains scripts and general files utilized by the other tools.
 
-A **brief overview of each tool** can be found in the **README.md file located in each tool's folder**. `Pupillometry_CSV_Format_Adapter` tool description, for example, can be localized here -> [Pupillometry_CSV_Format_Adapter_README.md](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Pupillometry_CSV_Format_Adapter)
+A **brief overview of each tool** can be found in the **README.md file located in each tool's folder**. For example `Pupillometry_CSV_Format_Adapter` tool description can be localized here -> [Pupillometry_CSV_Format_Adapter_README.md](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Pupillometry_CSV_Format_Adapter)
 
 
 ## Installation Prerequisites   
