@@ -46,10 +46,10 @@ class CustomFolderSelectorApp(FolderSelectorApp):
             output_file_path = os.path.join(formatted_root_path, 'Eye_csv_data.csv')
             with open(output_file_path, mode='w', newline='') as output_csvfile:
                 csvwriter = csv.writer(output_csvfile, delimiter=';')
-                header_csv = ['ID', 'Laterality', 'Channel']
-                csvwriter.writerow(header_csv)
+                header_csv = ['ID', 'Eye', 'Color']
 
                 # Iterate over csv files
+                counter = 0
                 for current_root, _, files in os.walk(folder_path):
                     # Si no es búsqueda recursiva, no descender a subdirectorios
                     if not recursive_search and current_root != folder_path:
@@ -61,9 +61,10 @@ class CustomFolderSelectorApp(FolderSelectorApp):
 
                     if n_files > 0:
                         bool_check = True
-                        for counter, file in enumerate(files):
+                        for file in files:
                             # Set process status
-                            id_processing = ' ' + str(counter + 1) + ' / ' + str(total_files)
+                            counter += 1
+                            id_processing = ' ' + str(counter) + ' / ' + str(total_files)
                             if que:
                                 que.put(id_processing)
 
@@ -75,6 +76,12 @@ class CustomFolderSelectorApp(FolderSelectorApp):
                                 list_to_csv = self.function_to_execute(file_path)
                             except Exception as e:
                                 continue
+
+                            # Add header to csv output file
+                            if counter == 1:
+                                enum_number = max(len(item) for item in list_to_csv) - 3
+                                header_csv.extend([enum_counter for enum_counter in range(1, enum_number)])
+                                csvwriter.writerow(header_csv)
 
                             # Add lines to csv output file
                             for item in list_to_csv:
