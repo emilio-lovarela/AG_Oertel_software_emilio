@@ -162,6 +162,7 @@ class FolderSelectorApp:
 
         # Recorrer las carpetas y archivos
         bool_check = False
+        counter = 0
         for current_root, _, files in os.walk(folder_path):
             # Si no es búsqueda recursiva, no descender a subdirectorios
             if not recursive_search and current_root != folder_path:
@@ -173,9 +174,10 @@ class FolderSelectorApp:
 
             if n_files > 0:
                 bool_check = True
-                for counter, file in enumerate(files):
+                for file in files:
                     # Set process status
-                    id_processing = ' ' + str(counter + 1) + ' / ' + str(total_files)
+                    counter += 1
+                    id_processing = ' ' + str(counter) + ' / ' + str(total_files)
                     if que:
                         que.put(id_processing)
 
