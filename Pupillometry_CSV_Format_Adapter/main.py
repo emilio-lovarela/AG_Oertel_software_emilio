@@ -9,6 +9,9 @@ import os
 import sys
 sys.path.append('../Common_utils')
 
+# Date and time packages
+from datetime import datetime
+
 # Base interfaz class
 from interfaz_base import FolderSelectorApp
 
@@ -43,9 +46,10 @@ class CustomFolderSelectorApp(FolderSelectorApp):
         bool_check = False
         if total_files > 0:
             # Escribir los resultados en un nuevo archivo CSV
-            output_file_path = os.path.join(formatted_root_path, 'Eye_csv_data.csv')
+            today = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+            output_file_path = os.path.join(formatted_root_path, 'Eye_csv_data_' + today + '.csv')
             with open(output_file_path, mode='w', newline='') as output_csvfile:
-                csvwriter = csv.writer(output_csvfile, delimiter=';')
+                csvwriter = csv.writer(output_csvfile, delimiter=',') # Use , or ;
                 header_csv = ['ID', 'Eye', 'Color']
 
                 # Iterate over csv files
