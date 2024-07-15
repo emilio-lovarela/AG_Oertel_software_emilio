@@ -10,7 +10,31 @@ import queue
 # Local Language and files management
 import locale
 import json
+import sys
 import os
+
+
+# Función para obtener la ruta del archivo en el directorio de ejecución
+def resource_path(relative_path):
+    """ Devuelve la ruta absoluta del archivo en el ejecutable. """
+    try:
+        # PyInstaller crea una carpeta temporal y coloca el ejecutable allí
+        base_path = sys._MEIPASS
+    except Exception:
+        # No es un ejecutable empaquetado, usa el directorio actual
+        base_path = os.path.dirname(__file__)
+    return os.path.join(base_path, relative_path)
+
+def get_app_name():
+    """ Devuelve el nombre de la APP. """
+    try:
+        # PyInstaller crea una carpeta temporal y coloca el ejecutable allí
+        _ = sys._MEIPASS
+        app_name = os.listdir(os.getcwd())[0]
+    except Exception:
+        # No es un ejecutable empaquetado, usa el directorio actual
+        app_name = os.getcwd()
+    return app_name
 
 
 class FolderSelectorApp:
@@ -35,6 +59,7 @@ class FolderSelectorApp:
         # Set principal components
         self.master = master
         self.function_to_execute = function_to_execute
+        translation_file = resource_path('translations.json')
         self.file_processing_counter = 0
         self.extensions_list = ('.jpg', '.jpeg', '.JPG', '.tiff', '.png', '.PNG')
 
@@ -48,7 +73,8 @@ class FolderSelectorApp:
         if self.system_locale not in self.translations:
             self.system_locale = 'default'
         
-        self.translations[self.system_locale]['window_title'] = os.path.basename(os.getcwd())
+        app_name = get_app_name()
+        self.translations[self.system_locale]['window_title'] = os.path.basename(app_name)
 
         # Init variables
         self.master.title(self.translations[self.system_locale]['window_title'])
