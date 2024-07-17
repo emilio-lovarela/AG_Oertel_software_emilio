@@ -6,11 +6,9 @@ A **brief overview of each tool** can be found in the **README.md file located i
 
 ## Installation Prerequisites
 **IMPORTANT NOTE:**
-Windows users can download the compiled tools to use them simply by double-clicking on the executable `.exe` file. The drive link with executable files for the tools can be found here:
+Windows users can download the compiled tools to use them simply by double-clicking on the executable `.exe` file. Within each tool's folder, there is a folder named **'Run_with_click'** which contains a file with the direct download link for the compiled tool. For example, the `Pupillometry_CSV_Format_Adapter` donwload link can be found -> [Pupillometry_Download_link_tool.txt](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Pupillometry_CSV_Format_Adapter/Run_with_click). It is recommended to download each tool you want to use and move it to its respective folder. The drive link with executable files for the tools can be found here:
 
 [Drive link to download executable tools](https://drive.google.com/drive/folders/1hEfefy5GVu8dn6OAxQ7_pQf9vLxHDeg9?usp=sharing)
-
-Additionally, within each tool's folder, there is a folder named **'Run_with_click'** which contains a file with the direct download link for the compiled tool. For example, the `Pupillometry_CSV_Format_Adapter` donwload link can be found -> [Pupillometry_Download_link_tool.txt](https://github.com/emilio-lovarela/AG_Oertel_software_emilio/tree/main/Pupillometry_CSV_Format_Adapter/Run_with_click). It is recommended to download each tool you want to use and move it to its respective folder.
 
 If you want to **use the tools natively through Python**, ensure that you have completed the following steps on your computer:
 
