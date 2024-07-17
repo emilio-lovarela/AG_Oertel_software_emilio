@@ -25,11 +25,13 @@ If you haven't already installed Python 3, you can download and install it from 
    **Note:** You can open a terminal directly in the desired folder in the following ways:
       - **Windows:** Go to your desired folder location and type `cmd` on the address bar
       - **Linux (Ubuntu):** Once in the folder location, right-click on an empty space in the file manager and then select `Open Terminal`
-   2. Then, **install the required dependencies** by running the following command:<br />`pip install -r requirements.txt`
+   2. Then, **install the required dependencies** by running the following command:<br />`pip install -r requirements.txt` or `pip3 install -r requirements.txt`
 
 
 ## How to use It
-To utilize each tool within this repository, follow these steps:
+**IMPORTANT NOTE:**
+Windows users can use the compiled tools double-clicking on the executable `.exe` file. The drive link with executable files for the tools can be found in the **Installation Prerequisites** section.
+To utilize each tool within this repository using python, follow these steps:
 
 <table border="0">
  <tr>
@@ -45,7 +47,7 @@ To utilize each tool within this repository, follow these steps:
 `cd Documents/Pupillometry_CSV_Format_Adapter`
 <br />**Note:** Remenber that you can open a terminal directly in the desired folder
       
-4. **Execute** the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py`
+4. **Execute** the `main.py` file within that folder using **Python** to open the **tool's interface** -> `python main.py` or `python3 main.py`
 
    </td>
    <td>   
