@@ -30,7 +30,8 @@ def get_app_name():
     try:
         # PyInstaller crea una carpeta temporal y coloca el ejecutable allí
         _ = sys._MEIPASS
-        app_name = os.listdir(os.getcwd())[0]
+        # app_name = os.listdir(os.getcwd())[0]
+        app_name = sys.executable
     except Exception:
         # No es un ejecutable empaquetado, usa el directorio actual
         app_name = os.getcwd()
