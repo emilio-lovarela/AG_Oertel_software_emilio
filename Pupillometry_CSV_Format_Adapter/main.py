@@ -49,7 +49,7 @@ class CustomFolderSelectorApp(FolderSelectorApp):
             today = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
             output_file_path = os.path.join(formatted_root_path, 'Eye_csv_data_' + today + '.csv')
             with open(output_file_path, mode='w', newline='') as output_csvfile:
-                csvwriter = csv.writer(output_csvfile, delimiter=',') # Use , or ;
+                csvwriter = csv.writer(output_csvfile, delimiter=';') # Use , or ;
                 header_csv = ['ID', 'Eye', 'Color']
 
                 # Iterate over csv files
