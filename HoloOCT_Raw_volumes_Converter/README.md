@@ -9,3 +9,4 @@ Then outputs the results in a specified directory.
    ```bash
    python main.py
    ```
+3. The processed images will be saved in the folder specified in the configuration file.
