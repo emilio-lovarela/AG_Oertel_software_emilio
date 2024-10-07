@@ -1,6 +1,6 @@
 construct==2.10.61
 numpy==1.18.5
 opencv_contrib_python==4.5.2.52
-opencv_python==4.1.1.26
+opencv_python==4.8.1.78
 opencv_python_headless==4.5.1.48
 pydicom==2.0.0
