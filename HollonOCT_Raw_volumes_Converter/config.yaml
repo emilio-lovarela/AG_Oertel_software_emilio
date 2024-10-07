@@ -1,0 +1,9 @@
+folder: 'hollon_data'  # Folder with raw data
+save_folder: 'output_folder'  # Output folder for processed images
+n_slices_in_volume: 500  # Total slices per volume
+cycle_of_repeated_bscan: 4  # Cycle of repeated B-scans (for example repeats every 4 images)
+image_size: [512, 512]  # Image dimensions (height, width)
+post_processing_average_per_n_slices: 5  # Slices to average together
+normalize_individual_image: false  # Normalize individual images
+normalize_postprocessed_images: true  # Normalize final images
+save_image: true  # Save images if true, display otherwise
