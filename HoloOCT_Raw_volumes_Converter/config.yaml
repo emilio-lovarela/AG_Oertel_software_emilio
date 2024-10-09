@@ -1,9 +1,14 @@
 folder: 'hollon_data'  # Folder with raw data
 save_folder: 'output_folder'  # Output folder for processed images
-n_slices_in_volume: 500  # Total slices per volume
-cycle_of_repeated_bscan: 4  # Cycle of repeated B-scans (for example repeats every 4 images)
-image_size: [512, 512]  # Image dimensions (height, width)
-post_processing_average_per_n_slices: 5  # Slices to average together
-normalize_individual_image: false  # Normalize individual images
-normalize_postprocessed_images: true  # Normalize final images
-save_image: true  # Save images if true, display otherwise
+n_slices_in_volume: 4096  # Total slices per volume (for large files)
+cycle_of_repeated_bscan: 1  # Cycle of repeated B-scans
+image_size: [2000, 408]  # Image dimensions (width, height)
+post_processing_average_per_n_slices: 128 # Slices to average together (1 -> Not average, 8, 16, 32, 64, 128)
+normalize_individual_image: False  # Normalize individual images
+normalize_postprocessed_images: True  # Normalize final images
+save_image: True  # Save images if true, display otherwise
+multiple_files_per_file: True  # Set to true if processing multiple B-scans in a single file
+data_format: 'complex64'  # Data format (options: 'float32', 'complex64', 'float64')
+post_process_image:
+  register_images_pre_average: True # Register images previously to compute the average
+  clahe: True # Aply clahe local contrast to final image
